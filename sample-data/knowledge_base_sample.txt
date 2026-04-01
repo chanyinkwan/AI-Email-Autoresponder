@@ -1,0 +1,55 @@
+ATLAS PROFESSIONAL SERVICES -- INTERNAL KNOWLEDGE BASE
+=======================================================
+
+SECTION: SERVICE PRICING TIERS (Effective January 2025)
+-------------------------------------------------------
+
+Atlas offers three core engagement tiers:
+
+1. Discovery (£5,000)
+   - Duration: 2 weeks
+   - Includes: stakeholder interviews, current-state assessment,
+     opportunity identification report
+   - Deliverable: Discovery Summary Report (15-20 pages)
+   - Suitable for: clients exploring digital transformation options
+
+2. Strategy (£15,000)
+   - Duration: 6-8 weeks
+   - Includes: full process mapping, technology assessment, vendor
+     evaluation, transformation roadmap with prioritised initiatives
+   - Deliverable: Digital Transformation Strategy Document (40-60 pages)
+   - Suitable for: clients ready to plan a transformation programme
+
+3. Implementation (from £35,000)
+   - Duration: 3-12 months depending on scope
+   - Includes: hands-on delivery, change management, vendor coordination,
+     training, and post-go-live support (first 30 days)
+   - Deliverable: deployed solution with documentation and training pack
+   - Pricing varies by scope; quoted after Strategy phase completion
+
+Bundled pricing: clients who commit to Discovery + Strategy together
+receive a 10% discount (combined price: £18,000 instead of £20,000).
+
+SECTION: STANDARD RESPONSE TIMES (SLA)
+---------------------------------------
+
+All client emails must receive a substantive response within 24 hours
+(one business day). Automated acknowledgements do not count.
+
+- Urgent emails (flagged or containing keywords: "urgent", "escalate",
+  "deadline", "legal"): target response within 4 hours during business
+  hours (Mon-Fri, 09:00-17:30 GMT).
+- Non-urgent general enquiries: within 24 hours.
+- New client enquiries: within 8 business hours (prioritised).
+
+SECTION: MEETING BOOKING PROCESS
+---------------------------------
+
+To book a meeting with a client or prospect:
+1. Check consultant availability on the shared Outlook calendar.
+2. Propose 2-3 time slots spanning at least two different days.
+3. All meetings must include a brief agenda (minimum 3 bullet points).
+4. Send calendar invites with a Teams link (default) or Zoom if the
+   client requests it.
+5. For first meetings with new prospects, CC the Business Development
+   lead (currently: Emma Richardson, e.richardson@atlaspro.co.uk).
