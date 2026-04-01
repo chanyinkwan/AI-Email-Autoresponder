@@ -4,7 +4,7 @@
 
 ## Client
 
-**Atlas Professional Services** (anonymised) -- A B2B management consulting firm specialising in digital transformation for mid-market companies.
+**Axxxx Professional Services** (anonymised) -- A B2B management consulting firm specialising in digital transformation for mid-market companies.
 
 | Detail | Value |
 |--------|-------|
@@ -15,7 +15,7 @@
 
 ## The Problem
 
-Atlas received 200+ client emails daily across project updates, meeting requests, document queries, and billing questions. Their challenges:
+aps received 200+ client emails daily across project updates, meeting requests, document queries, and billing questions. Their challenges:
 
 - Average response time: 48 hours (client SLA target: 24 hours)
 - Admin staff spent 6+ hours/day writing replies to repetitive questions
@@ -76,7 +76,7 @@ Incoming Email (IMAP)
 
 - **Why human-in-the-loop?** Legal risk. An AI sending incorrect contract terms or pricing could create binding obligations. Human approval eliminates this risk while keeping the speed benefit.
 - **Why RAG instead of fine-tuning?** The knowledge base changes frequently (new services, updated pricing). RAG lets you update documents without retraining. Drop a new PDF and the answers update instantly.
-- **Why email-based approval (not Slack)?** Atlas's senior consultants live in Outlook. Asking them to check another tool would kill adoption. Approve/reject buttons in email mean zero workflow change.
+- **Why email-based approval (not Slack)?** aps's senior consultants live in Outlook. Asking them to check another tool would kill adoption. Approve/reject buttons in email mean zero workflow change.
 - **Why audit logging?** Compliance requirement. Every AI-drafted email must be traceable: who approved it, when, what was the original draft vs final version.
 
 ## Results
@@ -175,7 +175,7 @@ I'd be happy to set up a call to walk through which option best fits
 BrightPath's needs. Would any time on Tuesday or Wednesday afternoon work?
 
 Best regards,
-Atlas Professional Services
+Axxxx Professional Services
 ```
 
 ### Approval Flow
@@ -206,7 +206,7 @@ After the approver clicks **Approve**, the audit log records:
 {
   "email_id": "msg-20250602-1037-brightpath",
   "action": "approved",
-  "approver": "e.richardson@atlaspro.co.uk",
+  "approver": "e.richardson@apspro.co.uk",
   "approved_at": "2025-06-02T11:14:32Z",
   "draft_version": 1,
   "edits_made": false
@@ -223,8 +223,8 @@ After the approver clicks **Approve**, the audit log records:
 ## Constraints & Trade-offs
 
 - **Why email-based approval over Slack:** Tested Slack buttons first. Only 2 of 8 senior consultants checked Slack regularly. Email approval had 4x higher response rate. "Use the channel people already check."
-- **Why IMAP over Gmail API:** Atlas uses Microsoft 365. Gmail API was not an option. IMAP is universal but has quirks (no push notifications, polling delay of 1-2 minutes).
-- **Why not auto-send for low-risk emails:** Discussed with Atlas. Even simple "thank you for your email" responses must be approved. Their compliance officer was firm: "nothing goes out without a human seeing it first." The approval step is a feature, not a limitation.
+- **Why IMAP over Gmail API:** aps uses Microsoft 365. Gmail API was not an option. IMAP is universal but has quirks (no push notifications, polling delay of 1-2 minutes).
+- **Why not auto-send for low-risk emails:** Discussed with aps. Even simple "thank you for your email" responses must be approved. Their compliance officer was firm: "nothing goes out without a human seeing it first." The approval step is a feature, not a limitation.
 - **Why Qdrant for the knowledge base:** Same self-hosting requirement as Financial RAG (client data sensitivity). Small corpus (~200 documents) so Qdrant was fine.
 
 ## Edge Cases & Error Handling
