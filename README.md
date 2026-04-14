@@ -2,15 +2,14 @@
 
 > An AI system that drafts contextual email replies using RAG, but requires human approval before sending -- balancing speed with governance.
 
-## Client
+## Scenario
 
-**Axxxx Professional Services** (anonymised) -- A B2B management consulting firm specialising in digital transformation for mid-market companies.
+A B2B management consulting firm specialising in digital transformation for mid-market companies.
 
 | Detail | Value |
 |--------|-------|
 | Industry | Management Consulting |
 | Size | 40 consultants, 5 admin staff |
-| Location | Manchester, UK |
 | Email volume | 200+ client emails/day |
 
 ## The Problem
